@@ -40,6 +40,7 @@ BuildRequires:  nodejs-esbuild
 
 Requires: cockpit-storaged
 Requires: cockpit-networkmanager
+Requires: subscription-manager-cockpit
 Requires: cockpit-bridge >= %{cockpitver}
 Requires: cockpit-ws >= %{cockpitver}
 Requires: anaconda-core  >= %{anacondacorever}
